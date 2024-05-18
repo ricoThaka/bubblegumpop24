@@ -16,11 +16,11 @@
   <div id="wrapper">
   <div id="MAiN">
     <div id="navcontainer">
-      <div class="logo">> puts "BubbleGumPoP".inspect=></div>
+      <div class="logo"><a href="https://ricothaka.github.io/holetoanotheruniverse">> puts "BubbleGumPoP".inspect=></a></div>
       <ul id="navlist">
         
        <li>
-          <a href="https://ricothaka.github.io/astronomy/">AstronomY</a>
+          <a href="https://ricothaka.github.io/astronomy/index">AstronomY</a>
           <ul>
             <li><a href="https://ricothaka.github.io/marsblog1.html">MarsArchive1</a></li>
             <li><a href="https://ricothaka.github.io/marsblog.html">MarsArchive2</a></li>
@@ -30,9 +30,9 @@
           <a href="https://ricothaka.github.io/compiling/index.html">ComPiLinG</a>
           <ul>
             
-            <li><a href="https://ricothaka.github.io/bubblegumpop24/">BubbleguMPoP</a></li>
+            <li><a href="https://ricothaka.github.io/bubblegumpop24/index">BubbleguMPoP</a></li>
             <li><a href="https://ricothaka.github.io/htau.html">MusiC</a></li>
-            <li><a href="https://ricothaka.github.io/holetoanotheruniverse/">Hole2Another UniversE</a></li>
+            <li><a href="https://ricothaka.github.io/holetoanotheruniverse/index">Hole2Another UniversE</a></li>
 
           </ul>
         </li>
@@ -48,11 +48,7 @@
         </li>
 
       </ul>
-      <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
-        {% assign owner_first_name = site.owner | split: " " %}
-        {{ owner_first_name[0] | downcase }}@home:~$
-        </a>
-    </div>
+</div>
 
 
     {{ content }}
